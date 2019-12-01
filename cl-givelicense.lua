@@ -6,14 +6,14 @@ RegisterCommand('givelicense', function()
             if closestPlayer ~= -1 and closestDistance <= 3.0 then
                 TriggerServerEvent('esx_license:addLicense', closestPlayer, 'weapon')
         else
-            exports['mythic_notify']:DoHudText('error', 'Error')
+            exports['mythic_notify']:SendAlert('error', 'Error')
         end
 
     else
-        exports['mythic_notify']:DoHudText('error', 'You are not a police officer')
+        exports['mythic_notify']:SendAlert('error', 'You are not a police officer')
     end
 
     else
-        exports['mythic_notify']:DoHudText('error', 'Higher police grade is required')
+        exports['mythic_notify']:SendAlert('error', 'Higher police grade is required')
     end
 end)
