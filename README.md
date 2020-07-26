@@ -20,4 +20,4 @@ line: 39
 line: 48
 
 # Join discord if you need help!
-[Discord](https://discord.gg/Zyq7kjw)
+[Discord](https://discord.gg/bEwhjJf)
